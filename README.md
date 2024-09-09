@@ -1,4 +1,4 @@
-# Purwadhika-Athaya-Zahrani-Irmansyah-Capstone-Project-Module-1-Data-Nilai-Mahasiswa (in Bahasa)
+# Purwadhika-Athaya-Zahrani-Irmansyah-Capstone-Project-Module-2 (in Bahasa)
 
 Athaya Zahrani Irmansyah as a Purwadhika JCDS-0408 Student On Site Bandung 2024 / Capstone Project Module 2 Data Analysis with Case Study NEW YORK CITY TAXIS AND LIMOUSINES COMMISSION (NYC TLC) TRIP RECORD (in Bahasa)
 
