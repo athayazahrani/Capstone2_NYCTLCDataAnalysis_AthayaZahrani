@@ -59,4 +59,6 @@ NYC TLC plays a central role in regulating and managing taxi and limousine servi
 
 _Unlock the key insights that shape New York City's dynamic taxi operations! Dive into our in-depth data analysis and discover patterns that reveal peak demand times, customer preferences, and opportunities to optimize fleet management. Explore the findings now to see how data-driven strategies can transform transportation services!_
 
+Open the "NYC TLC_Data Claeaning_Athaya Zahrani.ipynb" and "NYC TLC_Data Analysis_Athaya Zahrani.ipynb" files.
+
 Thank You - Athaya Zahrani Irmansyah
