@@ -1,64 +1,62 @@
-# Purwadhika-Athaya-Zahrani-Irmansyah-Capstone-Project-Module-2 (in Bahasa)
+# Athaya Zahrani Irmansyah - Capstone Project Module 2 - NYC TLC Data Analysis (in Bahasa)
 
-Athaya Zahrani Irmansyah as a Purwadhika JCDS-0408 Student On Site Bandung 2024 / Capstone Project Module 2 Data Analysis with Case Study NEW YORK CITY TAXIS AND LIMOUSINES COMMISSION (NYC TLC) TRIP RECORD (in Bahasa)
+_Athaya Zahrani Irmansyah as a Purwadhika JCDS-0408 Student On Site Bandung 2024 / Capstone Project Module 2 Data Analysis with Case Study NEW YORK CITY TAXIS AND LIMOUSINES COMMISSION (NYC TLC) TRIP RECORD (in Bahasa)_
 
-*`New York City Taxi and Limousine Commission (TLC)`* adalah sebuah perusahaan/badan yang dibawahi oleh pemerintahan kota New York di Amerika Serikat yang mencakup industri sewa kendaraan, mengatur, serta memfasilitasi Taksi/Limousin yang bisa digunakan untuk warga kota atau wisatawan di kota New York.
+*`New York City Taxi and Limousine Commission (TLC)`* is a commission under the government of New York City in the United States, covering the vehicle rental industry, regulating, and facilitating taxis/limousines for city residents or tourists in New York City.
 
-NYC TLC merupakan bagian besar dari sistem transportasi kota dengan  permintaan akan layanan antar-jemput yang sangat tinggi dan berfluktuasi sepanjang hari. Mengelola operasi antar-jemput secara efektif adalah tantangan yang besar besar, bagi pemerintah ataupun *stakeholders*, terutama dalam hal mengoptimalkan waktu dan lokasi penjemputan.
+NYC TLC is a large part of the city's transportation system with high and fluctuating demand for shuttle services throughout the day. Effectively managing shuttle operations is a significant challenge for both the government and stakeholders, particularly in optimizing pick-up times and locations.
 
-Seiring dengan perkembangan teknologi dan meningkatnya ketersediaan data, analisis data historis perjalanan taksi menjadi sangat diperlukan. Manfaat dari dilakukaannya analisis data historis perjalanan taksi antara lain:
-  - Mengoptimalkan rute dan penjemputan
-  - Memprediksi jumlah permintaan antar-jemput
-  - Meningkatkan kepuasan pelanggan
-  - Mengelola armada yang lebih baik
-  - Mengembangkan kebijakan, infrastruktur, dan pengembangan produk
-  - Mendeteksi keamanan
+With technological advancements and increased data availability, analyzing historical taxi trip data has become essential. The benefits of analyzing historical taxi trip data include:
+-	Optimizing routes and pick-ups
+-	Predicting shuttle demand
+-	Improving customer satisfaction
+-	Better fleet management
+-	Developing policies, infrastructure, and product development
+-	Enhancing security detection
 
-Data perjalanan yang direkam NYC TLC oleh vendor terkait mencakup informasi detail tentang waktu dan lokasi penjemputan serta pengantaran. Dengan menerapkan *Exploratory Data Analysis (EDA)* pada
-data ini, harapannya dapat mengeksplorasi pola permintaan antar-jemput penumpang dan memahami dinamika operasionalnya secara lebih mendalam.
+The trip data recorded by NYC TLC and its associated vendors include detailed information about pick-up and drop-off times and locations. By applying Exploratory Data Analysis (EDA) to this data, the goal is to explore passenger demand patterns and understand operational dynamics more deeply.
 
-Dalam industri taksi, memahami pola permintaan pelanggan, preferensi wilayah, dan faktor-faktor yang mempengaruhi kepuasan pelanggan (misalnya, melalui tip) adalah kunci untuk mengoptimalkan operasi dan meningkatkan profitabilitas. Dengan menilai kapan dan di mana layanan paling dibutuhkan serta apa yang mendorong pelanggan memberikan apresiasi lebih, perusahaan dapat membuat keputusan yang lebih tepat mengenai penjadwalan armada, strategi penetapan harga, dan inisiatif pemasaran.
+In the taxi industry, understanding customer demand patterns, regional preferences, and factors influencing customer satisfaction (e.g., tips) is key to optimizing operations and improving profitability. By assessing when and where services are most needed, and what drives customers to provide additional appreciation, companies can make more informed decisions regarding fleet scheduling, pricing strategies, and marketing initiatives.
 
-Analisis data yang komprehensif diperlukan untuk mengidentifikasi pola dan tren dalam permintaan pelanggan, preferensi wilayah, dan kepuasan pelanggan. Data ini dapat mencakup informasi tentang waktu dan lokasi penjemputan, jarak perjalanan, durasi perjalanan, tarif, metode pembayaran, dan tip.
+Comprehensive data analysis is necessary to identify patterns and trends in customer demand, regional preferences, and customer satisfaction. This data may include information on pick-up times and locations, trip distances, trip durations, fares, payment methods, and tips.
 
-Dengan menggunakan teknik analisis data seperti visualisasi data, statistik deskriptif, dan statistik inferensial yang akan dilakukan, harapannya perusahaan dapat memperoleh wawasan yang berharga tentang perilaku pelanggan dan preferensi mereka. Wawasan ini dapat digunakan untuk mengembangkan strategi yang lebih efektif untuk memenuhi kebutuhan pelanggan dan meningkatkan kepuasan pelanggan.
+Using data analysis techniques such as data visualization, descriptive statistics, and inferential statistics, it is expected that the company can gain valuable insights into customer behavior and preferences. These insights can be used to develop more effective strategies to meet customer needs and enhance customer satisfaction.
 
-GOALS. Tujuan dilakukan analisis data:
 
-**Tujuan 1: Menganalisis Permintaan NYC TLC di Kota New York**
-- Mengidentifikasi waktu permintaan maksimal dan minimal berdasarkan berbagai macam kategori waktu.
-- Memahami hubungan antara permintaan dengan faktor-faktor kategori waktu (seperti hari dalam seminggu/*weekend*/*weekday*) dan lokasi.
+GOALS. The objectives of the data analysis:
 
-**Tujuan 2: Mengeksplor Preferensi dan Perilaku Pelanggan**
-- Memahami preferensi dan karakteristik pelanggan di setiap perjalanan melalui jenis pembayaran dan jenis trip.
-- Mengidentifikasi preferensi pelanggan berdasarkan lokasi penjemputan dan pengantaran.
+**Objective 1: Analyze NYC TLC Demand in New York City**
+-	Identify peak and low demand times based on various time categories.
+-	Understand the relationship between demand and time-related factors (such as day of the week/weekend/weekday) and location.
 
-**Tujuan 3: Mengevaluasi Struktur Tarif untuk Layanan NYC TLC**
-- Menganalisis hubungan antara struktur tarif, karakteristik perjalanan, dan pendapatan.
-- Mengidentifikasi peluang untuk menyesuaikan struktur tarif untuk memaksimalkan pendapatan sambil tetap mempertahankan kepuasan pelanggan.
+**Objective 2: Explore Customer Preferences and Behavior**
+-	Understand customer preferences and characteristics on each trip through payment types and trip types.
+-	Identify customer preferences based on pick-up and drop-off locations.
 
-**Tujuan 4: Menginvestigasi Faktor-faktor yang Mempengaruhi Tip bagi Pengemudi NYC TLC**
-- Mengidentifikasi faktor-faktor yang mempengaruhi dan tidak mempengaruhi jumlah tips yang diterima oleh pengemudi NYC TLC.
-- Memahami hubungan antara tips dengan faktor-faktor seperti jarak perjalanan, durasi, dan waktu hari.
+**Objective 3: Evaluate Fare Structure for NYC TLC Services**
+-	Analyze the relationship between fare structure, trip characteristics, and revenue.
+-	Identify opportunities to adjust the fare structure to maximize revenue while maintaining customer satisfaction.
 
-**Tujuan 5: Mengembangkan Rekomendasi untuk Meningkatkan Pelayanan NYC TLC**
-- Berdasarkan hasil analisis, diharapkan dapat memberikan rekomendasi untuk meningkatkan layanan NYC TLC.
-- Rekomendasi dapat mencakup perubahan pada struktur tarif, strategi pengiriman, layanan pelanggan, dan pelatihan pengemudi.
-- *Stakeholders* dapat menggunakan informasi dan rekomendasi ini untuk mengembangkan dan melaksanakan strategi demi meningkatkan kualitas dan efisiensi layanan NYC TLC secara keseluruhan di Kota New York.
+**Objective 4: Investigate Factors Influencing Tips for NYC TLC Drivers**
+-	Identify the factors that influence or do not influence the amount of tips received by NYC TLC drivers.
+-	Understand the relationship between tips and factors such as trip distance, duration, and time of day.
 
-STAKEHOLDERS. NYC TLC memiliki sejumlah pemangku kepentingan (*stakeholders*) yang berperan penting dalam ekosistem transportasi kota. Berikut adalah beberapa pemangku kepentingan utama NYC TLC:
+**Objective 5: Develop Recommendations to Improve NYC TLC Services**
+-	Based on the analysis results, provide recommendations to improve NYC TLC services.
+-	Recommendations may include changes to the fare structure, dispatch strategies, customer service, and driver training.
+-	Stakeholders can use this information and recommendations to develop and implement strategies to improve the overall quality and efficiency of NYC TLC services in New York City.
 
-1. **Pemerintah Kota New York (Wali Kota, Dewan Kota, dan Departemen Transportasi New York)**: Menggunakan rekomendasi dari NYC TLC untuk membuat keputusan kebijakan terkait transportasi umum dan regulasi industri taksi, bekerja sama untuk memastikan keselamatan dan efisiensi transportasi di kota.
+STAKEHOLDERS. NYC TLC has several key stakeholders who play important roles in the city's transportation ecosystem. Here are some of the primary stakeholders of NYC TLC:
 
-2. **Pengemudi Taksi dan Limosin (Pengemudi Berlisensi dan Serikat Pekerja dan Asosiasi Pengemudi)**: Terlibat langsung dalam operasi sehari-hari dan terpengaruh oleh kebijakan dan peraturan NYC TLC, memperjuangkan hak dan kondisi kerja yang lebih baik untuk pengemudi.
+1. **New York City Government (Mayor, City Council, and New York Department of Transportation)**: Use recommendations from NYC TLC to make policy decisions regarding public transportation and taxi industry regulations, working together to ensure transportation safety and efficiency in the city.
+2.	**Taxi and Limousine Drivers (Licensed Drivers and Driver Unions and Associations)**: Directly involved in daily operations and affected by NYC TLC policies and regulations, advocating for better rights and working conditions for drivers.
+3.	**Taxi and Limousine Companies (Operators and Taxi Company Owners)**: Responsible for fleet operations and compliance with NYC TLC regulations.
+4.	**Passengers, General Public, Public Interest Groups**: Rely on NYC TLC regulations to receive safe and reliable services, advocating for policies that support accessibility, safety, and sustainability.
+5.	**Technology Developers (App Providers and Technology Solutions)**: Work with TLC to ensure compliance with regulations and integration of new technologies.
+6.	**Research Institutions and Academics**: Conduct studies and provide insights related to transportation trends and the impact of TLC policies.
 
-3. **Perusahaan Taksi dan Limosin (Operator dan Pemilik Perusahaan Taksi)**: Bertanggung jawab atas operasional armada dan kepatuhan terhadap regulasi NYC TLC.
+NYC TLC plays a central role in regulating and managing taxi and limousine services in the city, collaborating with various stakeholders to ensure these services meet the needs of the community and adhere to safety and quality standards.
 
-4. **Penumpang, Masyarakat Umum, Kelompok Kepentingan Publik**: Mengandalkan regulasi NYC TLC untuk mendapatkan layanan yang aman dan andal, mengadvokasi kebijakan yang mendukung aksesibilitas, keselamatan, dan keberlanjutan.
+_Unlock the key insights that shape New York City's dynamic taxi operations! Dive into our in-depth data analysis and discover patterns that reveal peak demand times, customer preferences, and opportunities to optimize fleet management. Explore the findings now to see how data-driven strategies can transform transportation services!_
 
-5. **Pengembang Teknologi (Penyedia Aplikasi dan Solusi Teknologi**): Bekerja sama dengan TLC untuk memastikan kepatuhan terhadap regulasi dan integrasi teknologi baru.
-
-6. **Lembaga Penelitian dan Akademisi**: Melakukan studi dan memberikan wawasan terkait tren transportasi dan dampak kebijakan TLC.
-Investor dan Pelaku Bisnis:
-
-NYC TLC memainkan peran sentral dalam mengatur dan mengelola layanan taksi dan limosin di kota, bekerja sama dengan berbagai pemangku kepentingan untuk memastikan bahwa layanan ini memenuhi kebutuhan masyarakat dan mematuhi standar keselamatan dan kualitas.
+Thank You - Athaya Zahrani Irmansyah
